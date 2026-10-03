@@ -13,7 +13,7 @@ This is one of three tailored portfolios built from the same background:
 ## Content
 
 - **Overview:** profile summary panel and key facts.
-- **Competency profile:** a table linking each I/O competency to the role where it was practiced.
+- **Competency model:** an interactive matrix of I/O competencies against roles; selecting a competency filters the experience explorer.
 - **Focus areas:** employee experience, selection and assessment, people analytics, learning and development, and culture and AI at work, plus target roles.
 - **Experience:** all six roles, led by Montalur (employee feedback and exit interviews), each with a note on its I/O relevance.
 - **Tools:** experienced tools, skills in development, and languages.
@@ -33,6 +33,6 @@ Open `index.html` in a browser, or run `npm ci` then `npm run dev`.
 ## Edit
 
 - `index.html` — all content
-- `styles.css` — navy, white, and blue business design
-- `script.js` — mobile menu, expandable experience, reading progress, scroll reveals
-- `assets/` — portrait, local font with license, and the downloadable résumé
+- `styles.css` — navy, white, and cobalt business design in Hanken Grotesk
+- `script.js` — competency matrix filters, focus-area tabs, filterable experience explorer, copy-email button, mobile menu
+- `assets/` — small portrait, local font with license, and the downloadable résumé
