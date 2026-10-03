@@ -12,12 +12,12 @@ This is one of three tailored portfolios built from the same background:
 
 ## Content
 
-- **Overview:** profile summary panel and key facts.
-- **Competency model:** an interactive matrix of I/O competencies against roles; selecting a competency filters the experience explorer.
-- **Focus areas:** employee experience, selection and assessment, people analytics, learning and development, and culture and AI at work, plus target roles.
-- **Experience:** all six roles, led by Montalur (employee feedback and exit interviews), each with a note on its I/O relevance.
-- **Tools:** experienced tools, skills in development, and languages.
-- **Education & leadership:** Tulane, minors, honors, campus involvement, Mercersburg, KUMON, community service, and interests.
+- **Overview:** name, focus, and key facts, with a side rail for navigation and contact.
+- **Profile:** a short statement and bio.
+- **Focus areas:** expanding panels with the questions she would explore and the experience behind each.
+- **Experience:** a filterable explorer of every role, each with a timeline and a focus-specific note.
+- **Competencies:** a matrix linking skills to the roles where they were built; selecting one filters the explorer.
+- **Background:** education, languages, community, and the roles she is pursuing.
 
 Professional facts come from Paula’s CV and résumé. Focus areas are labeled as interests, clinical observation is described as observational, and skills in development are labeled that way. Street address and phone number are intentionally left off the public site.
 
@@ -32,7 +32,11 @@ Open `index.html` in a browser, or run `npm ci` then `npm run dev`.
 
 ## Edit
 
-- `index.html` — all content
-- `styles.css` — navy, white, and cobalt business design in Hanken Grotesk
-- `script.js` — competency matrix filters, focus-area tabs, filterable experience explorer, copy-email button, mobile menu
-- `assets/` — small portrait, local font with license, and the downloadable résumé
+All three portfolios share one design, so only their focus differs.
+
+- `index.html` — page content
+- `styles.css` — shared design: Bodoni Moda and Hanken Grotesk, a side rail with live New Orleans and Madrid clocks, and wine accents
+- `script.js` — expanding focus panels, filterable experience explorer with a 2021–2027 timeline, competency matrix filters, copy-email button, and mobile menu
+- `assets/` — small portrait, local fonts with licenses, and the downloadable résumé
+
+Animations are disabled for people who prefer reduced motion, and the content stays readable without JavaScript.
